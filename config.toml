@@ -1,7 +1,13 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://sab0tage.com/'
 languageCode = 'en-us'
 title = 'sab0tage'
 
 theme = 'github.com/nodejh/hugo-theme-mini'
 
-customCSS = ['/custom.css']
+
+[params]
+author = "cachicam0"
+showToc = false
+showPowerBy = false
+copyright = " "
+customCSS = [ "custom.css" ]
